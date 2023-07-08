@@ -116,4 +116,5 @@ class SSPANEL:
 
 if __name__ == "__main__":
     _check_item = {'email': EMAIL, 'password': PASSWORD, 'url': DOMAIN}
+    print(_check_item)
     SSPANEL(check_item=_check_item).main()
